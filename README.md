@@ -2,6 +2,10 @@
 
 This repository contains a small, self-contained reviewer-queue application used for pre-interview familiarisation. It intentionally contains no interview brief, assessment criteria, or task instructions.
 
+## What do to now
+
+Read the code so you have some familiarity, ensure you have it working locally, don't over analyse it. We will share the challenge for this repo in our pairing session.
+
 ## What is here
 
 - `backend/`: a FastAPI service that exposes review items and workflow action endpoints.
@@ -33,7 +37,3 @@ The frontend is served at `http://localhost:3000`; it proxies API calls to the F
 (cd backend && pytest)
 npm test --prefix frontend
 ```
-
-## What do to now
-
-Read the code so you have some familiarity, ensure you have it working locally, don't over analyse it. We will share the challenge for this repo in our pairing session.
