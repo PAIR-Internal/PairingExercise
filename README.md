@@ -34,6 +34,6 @@ The frontend is served at `http://localhost:3000`; it proxies API calls to the F
 npm test --prefix frontend
 ```
 
-## Repository boundaries
+## What do to now
 
-The source and supporting setup files are included so candidates can orient themselves beforehand. The repository deliberately excludes the CoderPad challenge material and interviewer-only notes.
+Read the code, ensure you have it working locally, don't over analyse it so you are prepared for the challenge we will share in the pairing session.
