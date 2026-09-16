@@ -36,4 +36,4 @@ npm test --prefix frontend
 
 ## What do to now
 
-Read the code, ensure you have it working locally, don't over analyse it so you are prepared for the challenge we will share in the pairing session.
+Read the code so you have some familiarity, ensure you have it working locally, don't over analyse it. We will share the challenge for this repo in our pairing session.
