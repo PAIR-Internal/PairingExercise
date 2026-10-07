@@ -4,7 +4,7 @@ This repository contains a small, self-contained reviewer-queue application used
 
 ## What do to now
 
-Read the code so you have some familiarity, ensure you have it working locally, don't over analyse it. We will share the challenge for this repo in our pairing session.
+Read the code so you have some familiarity, ensure you have it working locally, don't over analyse it. We will share the challenge for this repo in our pairing session. You will be able to use your own IDE and AI tooling for the exercise.
 
 ## What is here
 
