@@ -6,6 +6,8 @@ This repository contains a small, self-contained reviewer-queue application used
 
 Read the code so you have some familiarity, ensure you have it working locally, don't over analyse it. We will share the challenge for this repo in our pairing session. You will be able to use your own IDE and AI tooling for the exercise.
 
+If you feel more comfortable with react please feel free to use the react frontend instead. You only need to be familiar with either the vue or react frontend before the interview, not both. 
+
 ## What is here
 
 - `backend/`: a FastAPI service that exposes review items and workflow action endpoints.
