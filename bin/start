@@ -1,8 +1,16 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Usage: ./bin/start [vue|react]   (default: vue)
+FRONTEND="${1:-${FRONTEND:-vue}}"
+case "$FRONTEND" in
+  vue) frontend_dir=frontend ;;
+  react) frontend_dir=frontend-react ;;
+  *) echo "Unknown frontend: $FRONTEND (expected vue or react)" >&2; exit 1 ;;
+esac
+
 pip install -r backend/requirements.txt
-npm ci --prefix frontend
+npm ci --prefix "$frontend_dir"
 
 (
   cd backend
@@ -15,6 +23,6 @@ cleanup() {
 }
 trap cleanup EXIT INT TERM
 
-VITE_API_BASE_URL=/api npm run dev --prefix frontend -- --host 0.0.0.0 --port 3000
+VITE_API_BASE_URL=/api npm run dev --prefix "$frontend_dir" -- --host 0.0.0.0 --port 3000
 
 
